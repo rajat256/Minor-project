@@ -1,0 +1,392 @@
+*{
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background-color: #f9fafb;
+  color: #2B3545;
+}
+
+.headersection{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: white;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #3b82f6;
+}
+
+.headerlinks a{
+    text-decoration: none;
+    color: black;
+    margin-top: 5px;
+}
+
+.headerlinks a:hover{
+    color: #3b82f6;
+}
+
+.headerlinks{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    
+}
+
+.headerbutton{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.headerbutton button{
+    margin-top: 5px;
+    padding: 6px 16px;
+    border-radius: 6px;
+     border: none;
+     cursor: pointer;
+     transition: 0.3s ease;
+    font-weight: 500;
+}
+
+#hbutton{
+     background-color:  #5c9dff;
+     color: white;
+}
+
+#hbutton:hover{
+    background-color: #3b82f6;
+}
+
+#login {
+  background-color: white;
+  border: 1px solid #3b82f6;
+  color: #3b82f6;
+}
+
+#login:hover {
+     background: #3b82f6; 
+     color: white;
+}
+
+
+.mainsection{
+     background: linear-gradient(to right, #3b82f6, #10b981);
+     padding: 60px 20px;
+     text-align: center;
+}
+
+.mainsection h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+}
+#secondone{
+    color:  #ff7f50;
+}
+
+.mainpara{
+    padding-top: 15px;
+}
+.mainpara p{
+    font-size: 1.1rem;
+    color: white;
+    margin-bottom: 5px;
+}
+
+
+.mainbutton{
+   margin-top: 25px;
+}
+
+.mainbutton button{
+   padding: 12px 25px;
+   border-radius: 5px;
+   margin: 10px;
+   background-color:  #4ab3a7;
+   color: white;
+   border:none;
+   cursor: pointer;
+   transition: 0.3s;
+   font-size: 1rem;
+}
+.mainbutton button:hover{
+   background-color: white;
+   color: #3b82f6;
+   border:1px solid  #3b82f6;
+}
+
+
+#firstmainbutton{
+    background-color:#39a939;
+    color: white;
+     border:1px solid #39a939;
+}
+#firstmainbutton:hover{
+   background-color:darkgreen;
+   border:1px solid darkgreen;
+}
+
+
+.mainlast {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center; 
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.stat-item { 
+    text-align: center; 
+    color: white;
+}
+
+.stat-item img {
+    height: 35px;
+    width: 35px;
+    margin-bottom: 10px; 
+}
+
+.stat-number {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.stat-description {
+    font-size: 0.9rem;
+}
+
+
+.Soultionpart{
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.solheading h1{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #2B3545;
+    font-weight: bold;
+}
+.solheading p{
+    text-align: center;
+    font-size: 1rem;
+    color: #566782;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  margin: 50px 80px;
+}
+
+
+.featurecard img {
+  width: 45px;
+  height: 45px;
+  margin-bottom: 15px;
+  display: block;
+}
+
+
+.featurecard {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.featurecard:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+.featurecard h3 {
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+  color: #2B3545;
+}
+
+.featurecard p {
+  font-size: 0.95rem;
+  color: #566782;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.featurecard a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #3b82f6;
+  transition: color 0.3s ease;
+}
+
+.featurecard a:hover {
+  color: #1e40af;
+}
+
+.demo{
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+}
+
+.demoheading{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.demoheading h1{
+  margin-bottom: 10px;
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+.demoheading p{
+  color: #566782;
+  font-weight: 400;
+}
+
+.demonavbars{
+  display: flex;
+  justify-content: space-around;
+  width: 1000px;
+  margin:  0 auto;
+  background-color: #a4a4a4e0;
+  margin-bottom: 30px;
+}
+
+.bars{
+     padding: 10px 20px;
+    border-radius: 6px;
+     border: none;
+     cursor: pointer;
+     transition: 0.3s ease;
+    font-weight: 500;
+    background-color:  #3b82f6;
+     color: white;
+}
+
+.democontent{
+  display: flex;
+  width: 1000px;
+  margin:  0 auto;
+   justify-content: space-between;
+  
+}
+
+.bluebox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ padding: 20px;
+  
+  background-color: #3b82f6;
+  width: 300px;
+  border-radius: 10px;
+  height: 100px;
+  color: #fff;
+}
+
+
+
+.spanone{
+  margin-top: 5px;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.spantwo{
+  font-size: 0.6rem;
+  font-weight: 700;
+}
+
+.greenbox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ padding: 20px;
+  
+  background-color: #39a939;
+  width: 300px;
+  border-radius: 10px;
+  height: 100px;
+  color: #fff;
+}
+.orangebox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  
+  background-color: #ff7f50;;
+  width: 300px;
+  border-radius: 10px;
+  height: 100px;
+  color: #fff;
+}
+
+.demoremaing{
+ margin-top: 20px;
+}
+.whitebox{
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  padding: 20px;
+  height: 240px;
+  background-color: #9a9daa;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.whiteh{
+  font-size: small;
+  font-weight: 300;
+}
+.whiteone{
+  margin-top: 20px;
+  font-size: small;
+   color: black;
+}
+.whitetow{
+    margin-top: 10px;
+      font-size: small;
+       color: black;
+}
+.whitethree{
+    margin-top: 10px;
+      font-size: small;
+      color: black;
+}
+
+.demobutton{
+    margin-top: 30px;
+  text-align: center;
+}
+.demobutton button{
+
+    padding: 10px 20px;
+    border-radius: 6px;
+     border: none;
+     cursor: pointer;
+     transition: 0.3s ease;
+    font-weight: 500;
+    background-color:  #3b82f6;
+     color: white;
+}
+
+
+.demobutton button:hover{
+    background-color: #5c9dff;
+}
