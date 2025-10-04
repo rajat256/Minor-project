@@ -390,3 +390,179 @@ body {
 .demobutton button:hover{
     background-color: #5c9dff;
 }
+.resourcebutt {
+  display: flex;
+  width: 1000px;
+  margin: 0 auto;
+  gap: 50px;
+}
+
+.leftresource {
+  width: 500px;
+    background-color: white; 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  
+}
+
+.progress-item {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.progress-label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #2B3545;
+}
+
+.progress-bar {
+  width: 100%;
+  background-color: #dfe6f1;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 10px;
+}
+
+.progress-fill {
+  display: flex;
+  height: 100%;
+}
+
+.blue {
+  background-color: #4a90e2;
+  width: 100%;
+}
+
+.green {
+  background-color: #4caf50;
+  width: 100%;
+}
+
+
+
+.rightresource{
+  width: 500px;
+  background-color: white; 
+    padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.rightres {
+  margin-top: 10px;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #2B3545;
+
+}
+
+.rightone{
+  background-color: green;
+  border-radius: 8px;
+  padding: 2px 4px;
+  color: white;
+  font-size: x-small;
+}
+
+
+
+.analyticsbox{
+  display: flex;
+  width: 1000px;
+  margin: 0 auto;
+  gap: 50px;
+  /* background-color: white; 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); */
+}
+.leftanalytics{
+  width: 500px;
+  background-color: white; 
+    padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.col {
+  margin-top: 10px;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #2B3545;
+  background-color: #3b82f6;
+}
+
+.reds{
+  background-color: #FEEAEA;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+
+.yellows{
+  background-color: #FFF4D4;
+   padding: 10px 15px;
+  border-radius: 8px;
+}
+.blues{
+  background-color: #EAFEEA;
+   padding: 10px 15px;
+  border-radius: 8px;
+}
+
+.reds p{
+  font-size: x-small;
+  font-weight: 500;
+}
+.yellows p{
+  font-size: x-small;
+   font-weight: 500;
+}
+.blues p{
+  font-size: x-small;
+   font-weight: 500;
+}
+
+.riskpara{
+  font-size: small;
+  font-weight: 400;
+  color: #566782;
+  margin-bottom: 20px;
+}
+
+
+.leftred{
+  background-color:#D94A4A;
+  color: white;
+  padding: 2px 5px;
+   border-radius: 8px;
+   border: 2px solid #D94A4A;
+}
+.leftyellow{
+  /* background-color:#F2B930; */
+   color: rgb(161, 137, 0);
+   padding: 2px 5px;
+   border-radius: 8px;
+   border: 2px solid gold;
+}
+.leftblue{
+   color: green;
+   padding: 2px 5px;
+   border-radius: 8px;
+   border: 2px solid green;
+}
+
+.rightanalytics{
+   width: 500px;
+  /* background-color: white; 
+    padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); */
+}
